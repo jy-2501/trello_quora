@@ -21,7 +21,7 @@ public class Answer {
     private ZonedDateTime date;
 
     @Column(name = "user_id")
-    private String userId;
+    private Integer userId;
 
     @Column(name = "question_id")
     private String questionId;
@@ -58,11 +58,11 @@ public class Answer {
         this.date = date;
     }
 
-    public String getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
