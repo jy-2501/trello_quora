@@ -22,6 +22,24 @@ public class QuoraConstants {
     public static final String USR_NOT_ADMIN = "Unauthorized Access, Entered user is not an admin";
     public static final String USR_UUID_NOT_EXIST = "User with entered uuid to be deleted does not exist";
 
+    public static final String QSTN_CREATED_SUCCESS = "QUESTION CREATED";
+    public static final String QSTN_EDITED_SUCCESS = "QUESTION EDITED";
+    public static final String QSTN_DELETED_SUCCESS = "QUESTION DELETED";
+    public static final String QSTN_LOADED_SUCCESS = "QUESTIONS SUCCESSFULLY LOADED";
+    public static final String QUES_NOT_EXIST = "Entered question uuid does not exist";
+    public static final String QUES_INVALID = "The question entered is invalid";
+    public static final String QUES_INVALID_OWNER = "Only the question owner can edit the question";
+    public static final String QUES_INVALID_NONADMIN_OWNER = "Only the question owner or admin can delete the question";
+    public static final String QUES_USR_UUID_NOT_EXIST = "User with entered uuid whose question details are to be seen does not exist";
+
+    public static final String ANS_CREATED_SUCCESS = "ANSWER CREATED";
+    public static final String ANS_EDITED_SUCCESS = "ANSWER EDITED";
+    public static final String ANS_DELETED_SUCCESS = "ANSWER DELETED";
+    public static final String ANS_NOT_EXIST = "Entered answer uuid does not exist";
+    public static final String ANS_INVALID_OWNER = "Only the answer owner can edit the answer";
+    public static final String ANS_INVALID_NONADMIN_OWNER = "Only the answer owner or admin can delete the answer";
+    public static final String ANS_USR_UUID_NOT_EXIST = "The question with entered uuid whose details are to be seen does not exist";
+
     public static final String NON_ADMIN = "nonadmin";
 
     public static final String SGR001 = "SGR-001";
@@ -36,4 +54,7 @@ public class QuoraConstants {
 
     public static final String USR001 = "USR-001";
     public static final String USR002 = "USR-002";
+
+    public static final String QUES001 = "QUES-001";
+    public static final String ANS001 = "ANS-001";
 }
